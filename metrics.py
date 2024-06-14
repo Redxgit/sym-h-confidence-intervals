@@ -266,6 +266,8 @@ def plot_comparison_bfe(
         fancybox=True,
         prop={"size": 14},
     )
+    leg.get_frame().set_alpha(None)
+    leg.get_frame().set_facecolor((0, 0, 0, 0))
     leg.get_lines()[-1].set_linewidth(12.0)
     leg.get_lines()[-1].set_alpha(0.15)
     leg.get_frame().set_edgecolor("black")
@@ -377,6 +379,8 @@ def plot_evaluation_bfe(df, title, ax=None, plot_sym_bars=False, xlabel_title=No
         bbox_to_anchor=(0.5, 1.2),
         loc="upper center",
     )
+    leg.get_frame().set_alpha(None)
+    leg.get_frame().set_facecolor((0, 0, 0, 0))
     leg.get_lines()[-1].set_linewidth(12.0)
     leg.get_lines()[-1].set_alpha(0.15)
     leg.get_frame().set_edgecolor("black")
@@ -504,6 +508,8 @@ def plot_forecast(
         loc="upper center",
         edgecolor="black",
     )
+    leg.get_frame().set_alpha(None)
+    leg.get_frame().set_facecolor((0, 0, 0, 0))
     return fig, ax
 
 
@@ -686,6 +692,8 @@ def plot_forecast_quantile(
         loc="upper center",
         edgecolor="black",
     )
+    leg.get_frame().set_alpha(None)
+    leg.get_frame().set_facecolor((0, 0, 0, 0))
     return fig, ax
 
 
@@ -848,6 +856,8 @@ def plot_evaluation_bfe_quantile(
         loc="upper center",
         edgecolor="black",
     )
+    leg.get_frame().set_alpha(None)
+    leg.get_frame().set_facecolor((0, 0, 0, 0))
     return fig, (ax, ax_color)
 
 
@@ -1025,4 +1035,6 @@ def plot_evaluation_quantile(
         loc="upper center",
         edgecolor="black",
     )
+    leg.get_frame().set_alpha(None)
+    leg.get_frame().set_facecolor((0, 0, 0, 0))
     return fig, (ax, ax_color)
