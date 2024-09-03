@@ -19,7 +19,7 @@ For any questions or issues, please open an issue on the GitHub repository or co
 
 ## DNN hyperparams
 
-![DNN sketch](arch_q.png "DNN sketch")
+![DNN sketch](arch_q_alpha.png "DNN sketch")
 
 Input timesteps: 48 of 5 minutes averages.
 Output: SYM-H forecast at the next 1 or 2 hours and the 5% and 95% Quantile forecasts.
