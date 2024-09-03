@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 Untitled.ipynb
-*on_repo.ipynb
+generate_graphs_and_metrics_on_repo
 
 # Distribution / packaging
 .Python

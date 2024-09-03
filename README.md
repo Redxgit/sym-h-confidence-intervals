@@ -43,7 +43,7 @@ Same hyperparams are used for the 1 and 2 hours models.
   * units: 1
   * activation: linear
 
-Forecasted SYM-H ouput layer trained with MSE and the quantile layers with the Quantile loss in the `quantile_loss.py` file at 0.05 and 0.95.
+Forecasted SYM-H ouput layer trained with MSE and the quantile layers with the Quantile loss in the `quantile_loss.py` file setting `q` at 0.05 and 0.95.
 
 Trained with the AdaBelief optimizer (https://www.tensorflow.org/addons/api_docs/python/tfa/optimizers/AdaBelief) on TensorFlow 2.14
 

@@ -5,8 +5,6 @@ Date: 05-10-23
 storm dates following the new proposed split for the SYM-H and ASY-H
 """
 
-import pandas as pd
-
 # Storm dates for training, validation, testing, and new storms
 TRAIN_STORMS_INFO_SYM_H = [
     ["19980215", "19980223", 1],
